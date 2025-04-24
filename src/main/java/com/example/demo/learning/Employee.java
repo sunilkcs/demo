@@ -7,7 +7,6 @@ public class Employee {
     private String name;
     private int age;
     private String department;
-
     private double salary;
 
     public Employee(int id, String name, int age, String department, double salary) {

@@ -56,18 +56,4 @@ public class CollectionsAdvanced {
         Map<String, List<Employee>> map = el.stream()
                 .collect(groupingBy(Employee::getDepartment));
     }
-
-    public String replaceCharacters(String str)
-    {
-        StringBuffer sb = new StringBuffer(str);
-        char[] arr = sb.toString().toCharArray();
-        for (char c: arr)
-        {
-            if (str.indexOf(c) == str.lastIndexOf(c)) {
-                str = str.replace(c, '(');
-            }
-            else
-
-        }
-    }
 }
